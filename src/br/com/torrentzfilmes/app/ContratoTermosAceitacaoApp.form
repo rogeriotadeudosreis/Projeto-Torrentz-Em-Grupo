@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Criar Nova Conta"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="164" max="32767" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jCheckBoxAceitarTermos" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jButtonConcluirCadastro" min="-2" pref="159" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="446" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace pref="33" max="32767" attributes="0"/>
+                          <Component id="jButtonConcluirCadastro" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Component id="jCheckBoxAceitarTermos" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="1. ACEITA&#xc7;&#xc3;O&#xa;Este &#xe9; um contrato firmado entre voc&#xea;, de agora em diante denominado como usu&#xe1;rio, e a TESTE Tecnologia&#xa;Eireli, empresa cadastrada no CNPJ sob n&#xba; 05.999.999/0001-99 com sede no munic&#xed;pio &#xa;de Goi&#xe2;nia - GO , a Av. Teste, 1079 &#x2013; 7&#xba; andar, e de agora em diante denominada simplesmente de Webnow. Este&#xa;&#x201c;Termo de Uso de Aplicativo&#x201d; rege o uso de todos os aplicativos disponibilizados gratuitamente pela Webnow&#xa;sejam para dispositivos m&#xf3;veis (Android, IOS, Windows Mobile), servidores, computadores pessoais (desktops)&#xa;ou servi&#xe7;os web. Se voc&#xea; n&#xe3;o concordar com estes termos n&#xe3;o use este aplicativo.&#xa;Voc&#xea; reconhece ainda que analisou e aceitou as condi&#xe7;&#xf5;es de uso. Leia-as atentamente pois o uso deste&#xa;aplicativo significa que voc&#xea; aceitou todos os termos e concorda em cumpri-los. Se voc&#xea;, usu&#xe1;rio, for menor de&#xa;idade ou declarado incapaz em quaisquer aspectos, precisar&#xe1; da permiss&#xe3;o de seus pais ou respons&#xe1;veis que&#xa;tamb&#xe9;m dever&#xe3;o concordar com estes mesmos termos e condi&#xe7;&#xf5;es.&#xa;2. LICEN&#xc7;A LIMITADA&#xa;Voc&#xea; recebeu uma licen&#xe7;a limitada, n&#xe3;o transfer&#xed;vel, n&#xe3;o exclusiva, livre de royalties e revog&#xe1;vel para baixar,&#xa;instalar, executar e utilizar este aplicativo em seu dispositivo. Voc&#xea; reconhece e concorda que a Webnow&#xa;concede ao usu&#xe1;rio uma licen&#xe7;a exclusiva para uso e desta forma n&#xe3;o lhe transfere os direitos sobre o produto.&#xa;O aplicativo dever&#xe1; ser utilizado por voc&#xea;, usu&#xe1;rio. A venda, transfer&#xea;ncia, modifica&#xe7;&#xe3;o, engenharia reversa ou&#xa;distribui&#xe7;&#xe3;o bem como a c&#xf3;pia de textos, imagens ou quaisquer partes nele contido &#xe9; expressamente proibida.&#xa;3. ALTERA&#xc7;&#xd5;ES, MODIFICA&#xc7;&#xd5;ES E RESCIS&#xc3;O&#xa;A Webnow reserva-se no direito de, a qualquer tempo, modificar estes termos seja incluindo, removendo ou&#xa;alterando quaisquer de suas cl&#xe1;usulas. Tais modifica&#xe7;&#xf5;es ter&#xe3;o efeito imediato. Ap&#xf3;s publicadas tais altera&#xe7;&#xf5;es,&#xa;ao continuar com o uso do aplicativo, voc&#xea; ter&#xe1; aceitado e concordado em cumprir os termos modificados.&#xa;A Webnow pode, de tempos em tempos, modificar ou descontinuar (tempor&#xe1;ria ou permanentemente) a&#xa;distribui&#xe7;&#xe3;o ou a atualiza&#xe7;&#xe3;o deste aplicativo.&#xa;A Webnow n&#xe3;o &#xe9; obrigada a fornecer nenhum servi&#xe7;o de suporte para este aplicativo.&#xa;O usu&#xe1;rio n&#xe3;o poder&#xe1; responsabilizar a Webnow nem seus diretores, executivos, funcion&#xe1;rios, afiliados, agentes,&#xa;contratados ou licenciadores por quaisquer modifica&#xe7;&#xf5;es, suspens&#xf5;es ou descontinuidade do aplicativo.&#xa;CONSENTIMENTO PARA COLETA E USO DE DADOS&#xa;Voc&#xea; concorda que a Webnow pode coletar e usar dados t&#xe9;cnicos de seu dispositivo tais como especifica&#xe7;&#xf5;es,&#xa;configura&#xe7;&#xf5;es, vers&#xf5;es de sistema operacional, tipo de conex&#xe3;o &#xe0; internet e afins.&#xa;ISEN&#xc7;&#xc3;O DE GARANTIAS E LIMITA&#xc7;&#xd5;ES DE RESPONSABILIDADE&#xa;Este aplicativo estar&#xe1; em cont&#xed;nuo desenvolvimento e pode conter erros e, por isso, o uso &#xe9; fornecido &quot;no&#xa;estado em que se encontra&quot; e sob risco do usu&#xe1;rio final. Na extens&#xe3;o m&#xe1;xima permitida pela legisla&#xe7;&#xe3;o aplic&#xe1;vel&#xa;a Webnow e seus fornecedores isentam-se de quaisquer garantias e condi&#xe7;&#xf5;es expressas ou impl&#xed;citas incluindo,&#xa;sem limita&#xe7;&#xe3;o, garantias de comercializa&#xe7;&#xe3;o, adequa&#xe7;&#xe3;o a um prop&#xf3;sito espec&#xed;fico, titularidade e n&#xe3;o viola&#xe7;&#xe3;o no&#xa;que diz respeito ao aplicativo e qualquer um de seus componentes ou ainda &#xe0; presta&#xe7;&#xe3;o ou n&#xe3;o de servi&#xe7;os de&#xa;suporte. A Webnow n&#xe3;o garante que a opera&#xe7;&#xe3;o deste aplicativo seja cont&#xed;nua e sem defeitos."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Termos do Contrato"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonConcluirCadastro">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Concluir"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonConcluirCadastroActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="jCheckBoxAceitarTermos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Eu aceito os termos"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
